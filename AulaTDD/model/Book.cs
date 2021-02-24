@@ -13,6 +13,10 @@ namespace AulaTDD.model
 
         public void Borrow()
         {
+            if(!_isAvailable)
+            {
+                throw new InvalidOperationException("Unable to borrow the current book.");
+            }
             _isAvailable = false;
         }
 
