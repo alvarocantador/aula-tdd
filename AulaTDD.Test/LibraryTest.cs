@@ -11,11 +11,6 @@ namespace AulaTDD.Test
     {
         /*
             Dado uma biblioteca
-            E com livros cadastrados
-            Quando requisitado o inventário
-            Então deverá ser retornado todos os livros disponíveis
-
-            Dado uma biblioteca
             E um novo livro
             Quando livro for adicionado ao inventário da biblioteca
             Então ele deverá constar na lista de livros disponíveis
@@ -40,12 +35,25 @@ namespace AulaTDD.Test
             Então um erro deverá ser emitido informando a situação do livro
         */
 
+
+        /*
+            Feature: Livros cadastrados
+            Dado uma biblioteca
+            E com livros cadastrados
+            Quando requisitado o inventário
+            Então deverá ser retornado todos os livros disponíveis
+        */
+
         [Test]
-        public void Test()
+        public void LivrosCadrastados()
         {
-
+            // given
+            ILibrary library = new Library(new Book[] { new Book() });
+            // when
+            var books = library.Books;
+            // then
+            Assert.AreEqual(books.Length, 1);
         }
-
      
 
     }
