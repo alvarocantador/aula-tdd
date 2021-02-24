@@ -5,7 +5,9 @@ namespace AulaTDD.model
 {
     public class Library : ILibrary
     {
-        public IBook[] Books => throw new NotImplementedException();
+        private IBook[] _books;
+
+        public IBook[] Books => _books;
 
         public void AddBook(IBook book)
         {
@@ -24,12 +26,12 @@ namespace AulaTDD.model
 
         public Library()
         {
-
+            _books = new IBook[] { };
         }
 
         public Library(IBook[] books)
         {
-
+            _books = books;
         }
     }
 }
