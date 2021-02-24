@@ -21,5 +21,15 @@ namespace AulaTDD.model
         {
             throw new NotImplementedException();
         }
+
+        public Library()
+        {
+
+        }
+
+        public Library(IBook[] books)
+        {
+
+        }
     }
 }
