@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaTDD", "AulaTDD\AulaTDD.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaTDD.Test", "AulaTDD.Test\AulaTDD.Test.csproj", "{5E695397-04E8-4DC0-AED9-58D927A067E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaBDD", "AulaBDD\AulaBDD.csproj", "{98FDCDE8-611C-4689-850A-B0D9FC38FC74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E695397-04E8-4DC0-AED9-58D927A067E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E695397-04E8-4DC0-AED9-58D927A067E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E695397-04E8-4DC0-AED9-58D927A067E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FDCDE8-611C-4689-850A-B0D9FC38FC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FDCDE8-611C-4689-850A-B0D9FC38FC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FDCDE8-611C-4689-850A-B0D9FC38FC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FDCDE8-611C-4689-850A-B0D9FC38FC74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
