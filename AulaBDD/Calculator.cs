@@ -3,12 +3,29 @@ namespace AulaBDD
 {
     public class Calculator
     {
-        public int FirstNumber { get; set; }
-        public int SecondNumber { get; set; }
+        public int FirstNumber { private get; set; }
+        public int SecondNumber { private get; set; }
 
-        public int Add()
+        public int Result { get; private set; }
+
+        public void Add()
         {
-            return 0;
+            Result = FirstNumber + SecondNumber;
+        }
+
+        public void Subtract()
+        {
+            Result = FirstNumber - SecondNumber;
+        }
+
+        public void Multiply()
+        {
+            Result = FirstNumber * SecondNumber;
+        }
+
+        public void Divide()
+        {
+            Result = FirstNumber / SecondNumber;
         }
     }
 }
